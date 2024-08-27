@@ -8,10 +8,13 @@ public class Runner {
 
     public static void main(String[] args)
     {
-        parseData("./test-data/twoSum.txt");
+        //-------- Two Sum --------
+//        int[] args = {0, 1, 2};
+//        runFile("./test-data/twoSum.txt", args);
+        System.out.println(Arrays.toString(Solution.twoSum(new int[]{2, 7, 11, 15}, 9)));
     }
 
-    public static void parseData(String path)
+    public static void runFile(String path, int[] args)
     {
         BufferedReader reader;
 
