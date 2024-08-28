@@ -1,8 +1,9 @@
 import java.util.HashMap;
 
 class Solution {
+
     //num1 + num2 = target, target - num2 = num1
-    public static int[] twoSum(int[] nums, int target)
+    public int[] twoSum(int[] nums, int target)
     {
         int n = nums.length;
         HashMap<Integer, Integer> compliment = new HashMap<Integer, Integer>();
@@ -16,5 +17,9 @@ class Solution {
         }
 
         return nums;
+    }
+
+    public boolean isValid(String s) {
+        return false;
     }
 }
