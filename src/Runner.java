@@ -11,8 +11,9 @@ public class Runner {
         //-------- Two Sum --------
 //        int[] args = {0, 1, 2};
 //        runFile("./test-data/twoSum.txt", args);
-        Solution solution = new Solution();
-        System.out.println(Arrays.toString(solution.twoSum(new int[]{2, 7, 11, 15}, 9)));
+        System.out.println(Arrays.toString(Solution.twoSum(new int[]{2, 7, 11, 15}, 9)));
+        System.out.println(Solution.isValid("()[]{}"));
+
     }
 
     public static void runFile(String path, int[] args)
